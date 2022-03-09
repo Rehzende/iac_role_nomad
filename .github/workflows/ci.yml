@@ -19,11 +19,9 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install -r requirements.txt
-          python3 -m pip install pylint
       - name: Run Linters
         run: |
           ansible-lint
-          pylint ./templates/nomad_bootstrap.py
   molecule:
     runs-on: ubuntu-18.04
     strategy:
