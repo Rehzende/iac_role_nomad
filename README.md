@@ -16,7 +16,7 @@ Para realizar os teste localmente é necessário a instalação das seguintes de
 ### Primeiro Passo:
 
 Clone este repositório, ele é a base da role do nomad.
-> git clone https://github.com/mentoria/iac_role_nomad
+> git clone https://github.com/rehzende/iac_role_nomad
 
 
 Ao final um diretório com a sua role será criado e você precisa agora entrar neste novo diretório. Para fazer isto use o comando a seguir:
